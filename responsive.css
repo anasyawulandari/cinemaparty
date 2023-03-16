@@ -1,0 +1,144 @@
+@media (max-width: 1200px) {
+    .container-header {
+        width: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .menu-icon {
+        display: none;
+    }
+
+    .container {
+        width: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .top-wrapper h1 {
+        font-size: 32px;
+        letter-spacing: 2px;
+        padding-bottom: 10px;
+    }
+
+    .container-footer {
+        width: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container-header {
+        width: 95%;
+        padding-right: 20px;
+        padding-left: 10px;
+    }
+
+    .header-center ul li {
+        display: block;
+    }
+
+    .header-right span,
+    a {
+        display: none;
+    }
+    .menu-icon {
+        display: block;
+    }
+
+    .movie {
+        width: 50%;
+    }
+
+    .container-footer {
+        width: 95%;
+        padding-right: 20px;
+        padding-left: 10px;
+    }
+}
+
+@media (max-width: 670px) {
+    .container-header {
+        width: 95%;
+        padding-right: 20px;
+        padding-left: 10px;
+    }
+
+    .header-center ul li {
+        display: none;
+    }
+
+    .header-right span,
+    a {
+        display: none;
+    }
+    .menu-icon {
+        display: block;
+    }
+
+    .top-wrapper h1 {
+        font-size: 28px;
+        letter-spacing: 4px;
+    }
+
+    .top-wrapper h2 {
+        font-size: 16px;
+        margin-bottom: 40px;
+        letter-spacing: 1.5px;
+    }
+
+    .btn-wrapper p {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .btn-wrapper input {
+        width: 100%;
+    }
+
+    .daftar {
+        margin-top: 10px;
+        width: 40%;
+    }
+
+    .movie {
+        width: 100%;
+    }
+    .movie-inside {
+        display: none;
+    }
+
+    .heading-genre :hover {
+        cursor: pointer;
+    }
+
+    .container-footer {
+        width: 95%;
+        padding-right: 20px;
+        padding-left: 10px;
+    }
+
+    .footer-list {
+        display: inline;
+        float: right;
+    } 
+
+    .footer-list li {
+        padding: 20px 10px;
+        font-size: 14px;
+    } 
+
+    .footer-logo{
+        padding-top: 5px;
+    }
+
+    .footer-akun{
+        padding: 10px;
+    }
+    .copyright{
+        font-size: 10px;
+        margin-right: 16%;
+        padding-top: 5px;
+    }
+}
